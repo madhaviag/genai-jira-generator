@@ -20,7 +20,7 @@ if st.button("Generate Jira Tickets"):
             response = openai.ChatCompletion.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are a product assistant that generates Jira issues."},
+                    {"role": "system", "content": "You are a business or system analyst that generates Jira issues from requirements."},
                     {"role": "user", "content": build_prompt(user_input)}
                 ],
                 temperature=0.3
