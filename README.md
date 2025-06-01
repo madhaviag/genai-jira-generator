@@ -11,7 +11,7 @@ This app uses OpenAI's GPT-4 to convert unstructured product ideas (emails, mess
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/genai-jira-generator.git
+git clone https://github.com/madhaviag/genai-jira-generator.git
 cd genai-jira-generator
 pip install -r requirements.txt
 cp .env.example .env
